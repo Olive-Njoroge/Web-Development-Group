@@ -1,0 +1,49 @@
+body{
+    background-color: #1A3137;
+    color: white;
+}
+button{
+    color: white;
+    border-radius: 12px;
+    padding: 3px 10px 3px 10px;
+    border: none;
+}
+.hire-me{
+    background-color: #007E68;
+}
+.my-portfolio{
+    background-color: #354748;
+}
+
+a{
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+}
+nav{
+    display: flex;
+    gap: 20px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    margin: 0 auto;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.icon{
+    width: 25px;
+    height: 25px;
+}
