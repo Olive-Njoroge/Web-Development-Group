@@ -42,6 +42,9 @@ nav{
 .hero-content {
     max-width: 600px;
 }
+.hero-image{
+    margin-left: 20px;
+}
 
 .icon{
     width: 25px;
