@@ -1,5 +1,4 @@
 body{
-    background-color: #1A3137;
     color: white;
 }
 button{
@@ -54,4 +53,17 @@ nav{
 .part1{
     max-width: 900px;
     margin: 0 auto;
+    background-color: #1A3137;
+}
+
+.about img{
+    width: 250px;
+    height: auto;
+    margin-right: 20px;
+}
+.about{
+    color: black;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
 }
