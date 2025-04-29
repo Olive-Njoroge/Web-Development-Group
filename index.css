@@ -1,33 +1,45 @@
-body{
+body {
     color: white;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
 }
-button{
+
+button {
     color: white;
     border-radius: 12px;
-    padding: 3px 10px 3px 10px;
+    padding: 10px 20px;
     border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    font-weight: bold;
 }
-.hire-me{
+
+.hire-me {
     background-color: #007E68;
 }
-.my-portfolio{
+
+.my-portfolio {
     background-color: #354748;
 }
 
-a{
+a {
     text-decoration: none;
-    margin: 10px;
     color: white;
+    font-weight: 500;
 }
-nav{
+
+nav {
     display: flex;
     gap: 20px;
 }
-.header{
+
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 50px;
+    padding: 20px 50px;
 }
 
 .hero {
@@ -35,35 +47,111 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 50px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
 .hero-content {
     max-width: 600px;
 }
-.hero-image{
-    margin-left: 20px;
+
+.hero-image {
+    margin-left: 40px;
 }
 
-.icon{
-    width: 25px;
-    height: 25px;
-}
-
-.part1{
-    max-width: 900px;
-    margin: 0 auto;
-    background-color: #1A3137;
-}
-
-.about img{
-    width: 250px;
+.hero-image img {
+    max-width: 100%;
     height: auto;
-    margin-right: 20px;
+    border-radius: 10px;
 }
-.about{
+
+.part1 {
+    width: 100%;
+    background:
+        linear-gradient(rgba(19, 39, 41, 0.9), rgba(19, 39, 41, 0.85)),
+        url('images/Background.jpg') no-repeat center center/cover;
+    padding-bottom: 50px;
+}
+
+.about {
     color: black;
-    padding-top: 20px;
+    padding: 80px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 50px;
+}
+
+.about img {
+    width: 300px;
+    height: auto;
+    border-radius: 3px;
+}
+
+.about-content {
+    max-width: 600px;
+}
+.my-portfolio{
+    background-color: #00C16E;
+}
+
+.about-content h2 {
+    color: #132729;
+    margin: 20px 0;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+.detailss{
     display: flex;
     justify-content: space-between;
 }
+
+p .icon2{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+#services{
+    color: black;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    nav {
+        margin-top: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hero {
+        flex-direction: column;
+        padding: 30px 20px;
+        text-align: center;
+    }
+
+    .hero-image {
+        margin: 30px 0 0 0;
+    }
+
+    .about {
+        flex-direction: column;
+        padding: 50px 20px;
+    }
+
+    .about img {
+        margin: 0 0 30px 0;
+    }
+}
+
