@@ -85,7 +85,7 @@ nav {
 }
 
 .about img {
-    width: 300px;
+    width: 250px;
     height: auto;
     border-radius: 3px;
 }
@@ -140,6 +140,22 @@ p .icon2{
     width: 30%;
     background-color: white;
     padding: 5px;
+}
+
+.skills{
+    color: black;
+    padding: 80px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 50px;
+}
+.skills img{
+    width: 250px;
+    height: auto;
+    border-radius: 3px;
 }
 
 /* Responsive adjustments */
