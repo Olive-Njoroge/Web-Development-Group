@@ -93,7 +93,8 @@ nav {
 .about-content {
     max-width: 600px;
 }
-.my-portfolio{
+
+.my-portfolio {
     background-color: #00C16E;
 }
 
@@ -106,43 +107,49 @@ nav {
     margin-top: 30px;
 }
 
-.detailss{
+.detailss {
     display: flex;
     justify-content: space-between;
 }
 
-p .icon2{
+p .icon2 {
     width: 20px;
     height: 20px;
     border-radius: 50%;
     margin: 10px;
 }
 
-#services{
+#services {
     color: black;
     max-width: 800px;
     margin: 0 auto;
     background-color: #F6F6F5;
     padding: 20px;
 }
-#services #y{
+
+#services #y {
     color: #1B8C7C;
     text-align: center;
 }
-#services h1{
+
+#services h1 {
     text-align: center;
 }
-.services1{
+
+.services1 {
     display: flex;
     justify-content: space-between;
 }
-.web, .app, .photos{
+
+.web,
+.app,
+.photos {
     width: 30%;
     background-color: white;
     padding: 5px;
 }
 
-.skills{
+.skills {
     color: black;
     padding: 80px 50px;
     display: flex;
@@ -152,43 +159,48 @@ p .icon2{
     margin: 0 auto;
     gap: 50px;
 }
-.skills img{
-    width: 250px;
+
+.skills img {
+    width: 300px;
     height: auto;
     border-radius: 3px;
 }
 
-.me{
+.me {
     color: black;
     padding: 40px;
     max-width: 1200px;
     margin: 0 auto;
 
 }
+
 .skills3 {
     display: flex;
     justify-content: space-between;
     gap: 30px;
     max-width: 600px;
     margin-left: 50px;
-    padding:  20px;
+    padding: 20px;
 }
-.skills3 p{
+
+.skills3 p {
     font-size: 14px;
 }
-.me img{
+
+.me img {
     width: 250px;
     height: auto;
     border-radius: 3px;
 }
-.me{
+
+.me {
     background-color: #F6F6F6;
     display: flex;
     justify-content: space-between;
     height: 90vh;
 }
 
-.yaay{
+.yaay {
     color: black;
     max-width: 800px;
     margin: 0 auto;
@@ -196,49 +208,56 @@ p .icon2{
     justify-content: space-between;
 }
 
-.success{
+.success {
     color: black;
     background-color: #F6F6F6;
     width: 80%;
     margin: 0 auto;
 }
-.success h1{
+
+.success h1 {
     text-align: center;
 }
-.success-images img{
+
+.success-images img {
     width: 150px;
     height: 150px;
 
 }
-.successsss{
+
+.successsss {
     display: flex;
     justify-content: center;
 }
-.success-images{
+
+.success-images {
     display: grid;
     grid-template-columns: 165px 165px 165px;
     row-gap: 15px;
 }
 
-.symbols{
+.symbols {
     background-color: #3B7F6B;
     display: flex;
     justify-content: space-between;
 }
-.symbols img{
+
+.symbols img {
     width: 50px;
     height: auto;
     padding: 10px 20px;
 }
 
-.final{
+.final {
     background-color: #061E24;
     color: white;
 }
-.final h1{
+
+.final h1, .final p {
     text-align: center;
 }
-footer{
+
+footer {
     background-color: #01181D;
     color: white;
     padding: 15px;
@@ -246,7 +265,7 @@ footer{
 
 
 
-    
+
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
@@ -280,4 +299,3 @@ footer{
         margin: 0 0 30px 0;
     }
 }
-
