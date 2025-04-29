@@ -196,6 +196,55 @@ p .icon2{
     justify-content: space-between;
 }
 
+.success{
+    color: black;
+    background-color: #F6F6F6;
+    width: 80%;
+    margin: 0 auto;
+}
+.success h1{
+    text-align: center;
+}
+.success-images img{
+    width: 150px;
+    height: 150px;
+
+}
+.successsss{
+    display: flex;
+    justify-content: center;
+}
+.success-images{
+    display: grid;
+    grid-template-columns: 165px 165px 165px;
+    row-gap: 15px;
+}
+
+.symbols{
+    background-color: #3B7F6B;
+    display: flex;
+    justify-content: space-between;
+}
+.symbols img{
+    width: 50px;
+    height: auto;
+    padding: 10px 20px;
+}
+
+.final{
+    background-color: #061E24;
+    color: white;
+}
+.final h1{
+    text-align: center;
+}
+footer{
+    background-color: #01181D;
+    color: white;
+    padding: 15px;
+}
+
+
 
     
 
