@@ -120,6 +120,26 @@ p .icon2{
 
 #services{
     color: black;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #F6F6F5;
+    padding: 20px;
+}
+#services #y{
+    color: #1B8C7C;
+    text-align: center;
+}
+#services h1{
+    text-align: center;
+}
+.services1{
+    display: flex;
+    justify-content: space-between;
+}
+.web, .app, .photos{
+    width: 30%;
+    background-color: white;
+    padding: 5px;
 }
 
 /* Responsive adjustments */
